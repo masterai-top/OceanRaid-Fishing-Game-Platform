@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a reproducible problem in the public repository.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, player data, payment records, private endpoints, or exploit details.
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: Exact commit hash where the issue occurs.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python, CMake/C++, Node.js, database, and relevant dependency versions.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Minimal commands and steps.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+name: Documentation improvement
+description: Suggest an evidence-based correction or missing explanation.
+title: "[Docs]: "
+labels: [documentation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed correction
+    validations:
+      required: true
