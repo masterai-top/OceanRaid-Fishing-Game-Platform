@@ -130,6 +130,14 @@ tests/                  # 自動化測試和驗證案例
 | 付費率 | 18.6% |
 | ARPU | ¥130+ |
 
+## MasterAI 相关游戏项目
+
+- [MasterAI 游戏项目主页](https://github.com/masterai-top)
+- [德州俱乐部](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [德州扑克赛事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
+- [德州金币大厅](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
+- 
 ## 聯絡方式
 
 如有任何問題或合作意向，歡迎聯絡：
