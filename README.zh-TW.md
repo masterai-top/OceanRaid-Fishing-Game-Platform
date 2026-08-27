@@ -108,7 +108,7 @@ tests/                  # 自動化測試和驗證案例
 
 | 比賽模式 | 海魔來襲大廳 | 海魔來襲 |
 | --- | --- | --- |
-| ![多人捕魚比賽模式](docs/assets/screenshots/tournament-mode.png) | ![海魔來襲大廳](docs/assets/screenshots/haimo.png) | ![海魔來襲捕魚玩法](docs/assets/screenshots/haimo.png) |
+| ![多人捕魚比賽模式](docs/assets/screenshots/tournament-mode.png) | ![海魔來襲大廳](docs/assets/screenshots/haimo.png) | ![锻造](docs/assets/screenshots/duanzhao.jpg) |
 
 | 玉石大廳 | 玉石場 | 捕魚戰鬥畫面 |
 | --- | --- | --- |
@@ -120,7 +120,9 @@ tests/                  # 自動化測試和驗證案例
 
 ## 營運資料
 
-| 指標 | 資料 |
+> 以下为项目方提供的停服前历史数据，未在本仓库中独立审计，不构成收益承诺。
+
+| 指标 | 历史数据 |
 | --- | ---: |
 
 | 每日活躍使用者 | 50,000+ |
@@ -134,6 +136,53 @@ tests/                  # 自動化測試和驗證案例
 
 - Telegram：`@xuzongbin001`
 - Email：`masterai918@gmail.com`
+
+
+
+---
+
+## 🚀 快速开始 | Quick Start
+
+### 环境要求 | Requirements
+
+| 组件 | 版本要求 |
+|------|----------|
+| Cocos Creator | v2.x / v3.x |
+| C++ 编译器 | GCC 7+ / MSVC 2019+ |
+| Python | 3.8+ |
+| Node.js | 14+ |
+| MySQL | 5.7+ |
+| Redis | 6.0+ |
+
+### 安装部署 | Installation
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/yourusername/FishingGameHall-Pro.git
+cd FishingGameHall-Pro
+
+# 2. 导入客户端
+# 使用Cocos Creator打开 client/ 目录
+
+# 3. 编译C++服务器
+cd server/cpp
+mkdir build && cd build
+cmake ..
+make
+
+# 4. 启动Python逻辑服务
+cd server/python
+pip install -r requirements.txt
+python main.py
+
+# 5. 启动运营后台
+cd admin
+npm install
+npm start
+
+# 6. 导入数据库
+mysql -u root -p < database/mysql/schema.sql
+```
 
 ## Star History
 
