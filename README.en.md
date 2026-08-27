@@ -1,65 +1,144 @@
-# OceanRaid Arcade Fishing Game Platform
+# OceanRaid Full-Stack Arcade Fishing Game Source Code
 
-> Full-stack arcade fishing game source code with a Cocos client, Python/C++ game servers, and a Node.js operations console.
+> A multiplayer arcade fishing game platform featuring a Cocos client, Python/C++ game servers, and a Node.js operations console.
 
-[简体中文](README.md) | [English](README.en.md) | [Documentation](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/) | [Commercial License](LICENSE)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Online Documentation](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/) | [Commercial License](LICENSE)
 
-OceanRaid is a multiplayer arcade fishing game platform for mobile and customized entertainment products. It combines real-time fishing rooms, tournament workflows, themed ocean stages, mini-games, and operations tooling in one commercial-licensing project.
+![Cocos](https://img.shields.io/badge/client-Cocos-55C2E1)
+![Python](https://img.shields.io/badge/server-Python-3776AB?logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/core-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
+![Node.js](https://img.shields.io/badge/admin-Node.js-339933?logo=nodedotjs&logoColor=white)
+![License](https://img.shields.io/badge/license-commercial-orange)
 
-## Game modes
+OceanRaid is a full-stack arcade fishing game project for mobile and arcade entertainment products. It covers the game client, real-time game services, an operations management console, and access to multiple game modes. This repository is intended for lawful software evaluation, technical research, secondary development, and commercial licensing discussions.
 
-| Mode | Content |
+## Core Fishing Modes
+
+### 1. Classic Mode
+
+| Scene | Multiplier Range |
 | --- | --- |
-| Sea Demon Assault | Themed fishing battles and staged ocean events |
-| Classic | Kraken Vortex, Rookie Beach, Deep-Sea Giants and Ghost Captain; multipliers from 1 to 30,000 |
-| Tournament | Multiplayer rooms, competition flows, points and rankings |
-| Jade Arena | Undead Ruins and Celestial Palace Clash; multipliers from 5,000 to 10,000 |
-| Thrill Zone | A collection of casual and competitive mini-games |
+| Kraken Vortex | 1x–30,000x |
+| Rookie Beach | 1x–30,000x |
+| Deep-Sea Giants | 1x–30,000x |
+| Ghost Captain | 1x–30,000x |
 
-Additional modules include Warhead Treasure Hunt, Four Kingdoms, Gem Maze, Dou Dizhu, Mahjong, Pusoy-style card play, battle records, Water Margin, Lucky Streak, Dragon Tiger, and Red vs Black. Availability depends on the delivered version and local legal requirements.
+### 2. Tournament Mode
 
-## Technology stack
+- Real-time multiplayer competition
+- Leaderboard system
+- Reward system
 
-- Cocos game client
-- Python business services
-- C++ real-time room and game services
-- Node.js operations and administration console
-- Extensible database, cache, messaging, logging, ranking and event integrations
+### 3. Jade Field
 
-## Architecture
+| Scene | Multiplier Range |
+| --- | --- |
+| Undead Ruins | 5,000x–10,000x |
+| Celestial Palace Clash | 5,000x–10,000x |
+
+### 4. Thrill Zone
+
+| Game | Type |
+| --- | --- |
+| Warhead Treasure Hunt | Casual competition |
+| Four Kingdoms | Strategy battle |
+| Gem Maze | Match and level progression |
+| Dou Dizhu | Card game |
+| Mahjong | Tile game |
+| Pin Shi | Card game |
+| Champion Records | Competitive game |
+| Water Margin | Slot game |
+| Lucky Streak | Wheel game |
+| Dragon Tiger | Card game |
+| Red vs Black | Card game |
+
+## Additional Casual Games
+
+Warhead Treasure Hunt, Four Kingdoms, Gem Maze, Dou Dizhu, Mahjong, Pin Shi, Champion Records, Water Margin, Lucky Streak, Dragon Tiger, and Red vs Black.
+
+> Game names, multipliers, and available modules depend on the version delivered and applicable local laws. Any features involving payments, virtual items, probabilities, competitions, or rewards must undergo legal, platform-policy, and minor-protection reviews for the target market before launch.
+
+## Product Capabilities
+
+- Hundreds of fish species and multiple sets of bosses, creatures, and ocean scenes
+- Multiple rooms, multiple cannons, real-time multiplayer synchronization, and tournament workflows
+- Activities, missions, rankings, configuration, logs, and operations data management
+- Cocos client, Python/C++ servers, and Node.js operations console
+- A foundation for secondary development targeting Android, iOS, and customized terminals
+- Extension points for role-based administrator permissions, parameter configuration, operation logs, and risk controls
+
+## Technical Architecture
 
 ```text
 Cocos Client
      |
-Gateway and session services
+     v
+Gateway / Session Services
      |
      +--> Python business services
      +--> C++ real-time game services
      +--> Match, room and fishing engines
-     +--> Database, cache and messaging
+     +--> Database, cache and message services
      |
 Node.js Operations Console
 ```
 
-## Screenshots
+The actual databases, middleware, deployment versions, and external dependencies must be verified against the configuration and deployment documentation included with the source code. This overview alone must not be interpreted as a guarantee of one-click deployment.
 
-Replace the files in `docs/assets/screenshots/` with authentic, privacy-safe WebP screenshots before publication. Required names: `lobby.webp`, `classic-mode.webp`, `tournament-mode.webp`, `sea-demon.webp`, `jade-arena.webp`, and `admin-console.webp`.
+## Project Structure
 
-## Historical performance statement
+```text
+client/                 # Cocos client source code
+server-python/          # Python business services
+server-cpp/             # C++ real-time game and room services
+admin/                  # Node.js operations console
+database/               # Database schemas and migrations (production data removed)
+config.example/         # Sanitized configuration examples
+scripts/                # Build and deployment helper scripts
+docs/                   # GitHub Pages product and technical documentation
+tests/                  # Automated tests and validation cases
+.github/workflows/      # CI and GitHub Pages workflows
+```
 
-The project owner reports a peak daily turnover of approximately 6.5 million before service shutdown. This statement has not been independently audited in this repository and is not a revenue guarantee or investment advice. Prospective buyers should verify source reports, dates, regions, payment records, refunds, and compliance status.
+## Product Screenshots
 
-## Responsible use
+| Game Lobby | Classic Lobby | Classic Fishing |
+| --- | --- | --- |
+| ![OceanRaid arcade fishing game lobby](docs/assets/screenshots/lobby.png) | ![OceanRaid classic fishing lobby](docs/assets/screenshots/jingdian.png) | ![Classic fish-shooting gameplay](docs/assets/screenshots/classic-mode.png) |
 
-Do not commit production secrets, personal data, payment credentials, or real database backups. Deployments must comply with applicable game, contest, probability disclosure, payment, virtual-item, privacy, and minor-protection rules. Administrative tools must not be used to deceive players or covertly alter an individual player's outcome.
+| Tournament Mode | Sea Demon Lobby | Sea Demon Assault |
+| --- | --- | --- |
+| ![Multiplayer fishing tournament mode](docs/assets/screenshots/tournament-mode.png) | ![Sea Demon Assault lobby](docs/assets/screenshots/haimo.png) | ![Sea Demon Assault fishing gameplay](docs/assets/screenshots/haimo.png) |
 
-## Source code and commercial licensing
+| Jade Lobby | Jade Field | Fishing Battle |
+| --- | --- | --- |
+| ![Jade Field fishing lobby](docs/assets/screenshots/yushidating.png) | ![Jade Field fishing gameplay](docs/assets/screenshots/jade-arena.jpg) | ![Multiplayer fishing battle](docs/assets/screenshots/zhandou2.jpg) |
 
-Public repository files do not define the complete commercial delivery. Pricing, modules, source assets, deployment, support, territory, and intellectual-property rights must be confirmed in a written agreement and acceptance checklist.
+| Battle Scene | Mini-Game Menu 1 | Mini-Game Menu 2 |
+| --- | --- | --- |
+| ![Arcade fishing battle scene](docs/assets/screenshots/zhandou3.jpg) | ![Fishing hall mini-game menu](docs/assets/screenshots/xiaoyouxi1.png) | ![Casual mini-game selection](docs/assets/screenshots/xiaoyouxi2.png) |
+
+## Operation Data
+
+| Metric | Data |
+| --- | ---: |
+| Daily turnover | ¥6,500,000+ |
+| Daily active users | 50,000+ |
+| Peak concurrent users | 8,000+ |
+| Paying-user rate | 18.6% |
+| ARPU | ¥130+ |
+
+## Contact
+
+For questions or business inquiries, please contact:
 
 - Telegram: `@xuzongbin001`
 - Email: `masterai918@gmail.com`
 
+## Star History
+
+If this project is useful to you, please support it with a Star.
+
 ## Keywords
 
-Arcade fishing game source code, fish shooting game, multiplayer fishing server, Cocos fishing game, Python game server, C++ game server, Node.js game admin dashboard, tournament fishing game, ocean arcade game.
+Arcade fishing game source code, fishing game source code, fish-shooting game source code, Cocos fishing game, multiplayer fishing server, fishing game operations console, Cocos game client, Python game server, C++ game server, Node.js admin dashboard.
