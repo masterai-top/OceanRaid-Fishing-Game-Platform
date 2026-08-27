@@ -99,16 +99,24 @@ tests/                  # 自动化测试和验证用例
 
 ## 产品截图
 
-发布前请把真实截图放入 `docs/assets/screenshots/`，保持以下文件名：
-
-| 画面 | 上传文件名 |
 | --- | --- |
-| 游戏大厅 | `docs/assets/screenshots/lobby.webp` |
-| 经典捕鱼 | `docs/assets/screenshots/classic-mode.webp` |
-| 比赛模式 | `docs/assets/screenshots/tournament-mode.webp` |
-| 海魔来袭 | `docs/assets/screenshots/sea-demon.webp` |
-| 玉石场 | `docs/assets/screenshots/jade-arena.webp` |
-| 运营后台 | `docs/assets/screenshots/admin-console.webp` |
+| 游戏大厅 | `docs/assets/screenshots/lobby.png` |
+| 经典大厅 | `docs/assets/screenshots/jingdian.png` |
+| 经典捕鱼 | `docs/assets/screenshots/classic-mode.png` |
+| 比赛模式 | `docs/assets/screenshots/tournament-mode.png` |
+| 海魔来袭大厅 | `docs/assets/screenshots/haimo.png` |
+
+| 海魔来袭 | `docs/assets/screenshots/sea-demon.png` |
+| 玉石大厅 | `docs/assets/screenshots/yushidating.png` |
+| 玉石场 | `docs/assets/screenshots/jade-arena.jpg` |
+
+| 游戏中 | `docs/assets/screenshots/zhandou2.png` |
+| 游戏中 | `docs/assets/screenshots/zhandou3.jpg` |
+
+
+| 小游戏 | `docs/assets/screenshots/xiaoyouxi1.png` |
+| 小游戏 | `docs/assets/screenshots/xiaoyouxi2.png` |
+
 
 
 
