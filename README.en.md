@@ -129,6 +129,15 @@ tests/                  # Automated tests and validation cases
 | Paying-user rate | 18.6% |
 | ARPU | ¥130+ |
 
+
+
+## More MasterAI Game Projects
+
+- [MasterAI Project Profile](https://github.com/masterai-top)
+- [Texas Hold'em Poker Complete Solution](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [Texas Hold'em Tournament Platform](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
+- [Texas Hold'em Poker](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code) 
+- [CFR Poker AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 ## Contact
 
 For questions , please contact:
