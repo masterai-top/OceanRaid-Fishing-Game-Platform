@@ -2,7 +2,7 @@
 
 > Cocos 客户端 + Python/C++ 游戏服务端 + Node.js 运营后台的多人街机捕鱼游戏平台源码。
 
-[简体中文](README.md) | [English](README.en.md) | [在线文档](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/) | [商业授权](LICENSE)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [在线文档](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/) | [商业授权](LICENSE)
 
 ![Cocos](https://img.shields.io/badge/client-Cocos-55C2E1)
 ![Python](https://img.shields.io/badge/server-Python-3776AB?logo=python&logoColor=white)
