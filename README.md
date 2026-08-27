@@ -99,23 +99,23 @@ tests/                  # 自动化测试和验证用例
 
 ## 产品截图
 
-| --- | --- |
-| 游戏大厅 | `docs/assets/screenshots/lobby.png` |
-| 经典大厅 | `docs/assets/screenshots/jingdian.png` |
-| 经典捕鱼 | `docs/assets/screenshots/classic-mode.png` |
-| 比赛模式 | `docs/assets/screenshots/tournament-mode.png` |
-| 海魔来袭大厅 | `docs/assets/screenshots/haimo.png` |
+## 产品截图
 
-| 海魔来袭 | `docs/assets/screenshots/sea-demon.png` |
-| 玉石大厅 | `docs/assets/screenshots/yushidating.png` |
-| 玉石场 | `docs/assets/screenshots/jade-arena.jpg` |
+| 游戏大厅 | 经典大厅 | 经典捕鱼 |
+| --- | --- | --- |
+| ![OceanRaid 捕鱼游戏大厅](docs/assets/screenshots/lobby.png) | ![OceanRaid 经典捕鱼大厅](docs/assets/screenshots/jingdian.png) | ![经典捕鱼游戏画面](docs/assets/screenshots/classic-mode.png) |
 
-| 游戏中 | `docs/assets/screenshots/zhandou2.png` |
-| 游戏中 | `docs/assets/screenshots/zhandou3.jpg` |
+| 比赛模式 | 海魔来袭大厅 | 海魔来袭 |
+| --- | --- | --- |
+| ![多人捕鱼比赛模式](docs/assets/screenshots/tournament-mode.png) | ![海魔来袭大厅](docs/assets/screenshots/haimo.png) | ![海魔来袭捕鱼玩法](docs/assets/screenshots/haimo.png) |
 
+| 玉石大厅 | 玉石场 | 捕鱼战斗画面 |
+| --- | --- | --- |
+| ![捕鱼玉石场大厅](docs/assets/screenshots/yushidating.png) | ![玉石场捕鱼玩法](docs/assets/screenshots/jade-arena.jpg) | ![多人捕鱼战斗画面](docs/assets/screenshots/zhandou2.jpg) |
 
-| 小游戏 | `docs/assets/screenshots/xiaoyouxi1.png` |
-| 小游戏 | `docs/assets/screenshots/xiaoyouxi2.png` |
+| 战斗场景 | 小游戏入口一 | 小游戏入口二 |
+| --- | --- | --- |
+| ![捕鱼战斗场景](docs/assets/screenshots/zhandou3.jpg) | ![捕鱼大厅小游戏入口](docs/assets/screenshots/xiaoyouxi1.png) | ![休闲小游戏列表](docs/assets/screenshots/xiaoyouxi2.png) |
 
 
 
