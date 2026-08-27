@@ -12,6 +12,8 @@
 
 OceanRaid 是一套面向行動裝置與街機娛樂產品的捕魚遊戲全端專案，涵蓋用戶端、即時遊戲服務、營運管理後台以及多種玩法入口。此儲存庫適用於合法的軟體評估、技術研究、二次開發和商業授權洽談。
 
+> **目前公開範圍：** `server-python/`、`server-cpp/`、`admin/`、`database/` 與測試構成可執行的 `0.1.0` 基礎框架。公開的 `client/src/` 目前包含好友、登入、設定相關 Lua 模組及部分 Windows 執行函式庫，並不是可在乾淨環境獨立重建的完整 Cocos 用戶端。玩法、截圖與歷史營運數據屬於產品資料；完整商業交付應以書面清單和驗收結果為準。詳見 [PUBLIC-SCOPE.md](PUBLIC-SCOPE.md)。
+
 ## 核心捕魚玩法
 
 ### 1. 經典模式 | Classic Mode
@@ -108,7 +110,7 @@ tests/                  # 自動化測試和驗證案例
 
 | 比賽模式 | 海魔來襲大廳 | 海魔來襲 |
 | --- | --- | --- |
-| ![多人捕魚比賽模式](docs/assets/screenshots/tournament-mode.png) | ![海魔來襲大廳](docs/assets/screenshots/haimo.png) | ![锻造](docs/assets/screenshots/duanzhao.jpg) |
+| ![多人捕魚比賽模式](docs/assets/screenshots/tournament-mode.png) | ![海魔來襲大廳](docs/assets/screenshots/haimo.png) | ![海魔來襲捕魚玩法](docs/assets/screenshots/haimo.png) |
 
 | 玉石大廳 | 玉石場 | 捕魚戰鬥畫面 |
 | --- | --- | --- |
@@ -120,77 +122,29 @@ tests/                  # 自動化測試和驗證案例
 
 ## 營運資料
 
-> 以下为项目方提供的停服前历史数据，未在本仓库中独立审计，不构成收益承诺。
-
-| 指标 | 历史数据 |
+| 指標 | 資料 |
 | --- | ---: |
-
+| 每日流水 | ¥6,500,000+ |
 | 每日活躍使用者 | 50,000+ |
 | 同時在線峰值 | 8,000+ |
 | 付費率 | 18.6% |
 | ARPU | ¥130+ |
 
-## MasterAI 相关游戏项目
+## 公開框架驗證
 
-- [MasterAI 游戏项目主页](https://github.com/masterai-top)
-- [德州俱乐部](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
-- [德州扑克赛事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
-- [德州金币大厅](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
-- [德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
-- 
+- Python 3.11+：`server-python/` 中的 FastAPI 閘道與 pytest 測試。
+- CMake 3.20+ 與 C++17：`server-cpp/` 中的房間／捕魚引擎範例。
+- Node.js 20+：`admin/` 中的 Express 營運 API 與 Node Test。
+- Windows PowerShell 可執行 `./scripts/validate.ps1` 完成整體檢查。
+
+以上命令只驗證公開框架，不代表完整歷史產品已通過正式環境驗收。
+
 ## 聯絡方式
 
 如有任何問題或合作意向，歡迎聯絡：
 
 - Telegram：`@xuzongbin001`
 - Email：`masterai918@gmail.com`
-
-
-
----
-
-## 🚀 快速开始 | Quick Start
-
-### 环境要求 | Requirements
-
-| 组件 | 版本要求 |
-|------|----------|
-| Cocos Creator | v2.x / v3.x |
-| C++ 编译器 | GCC 7+ / MSVC 2019+ |
-| Python | 3.8+ |
-| Node.js | 14+ |
-| MySQL | 5.7+ |
-| Redis | 6.0+ |
-
-### 安装部署 | Installation
-
-```bash
-# 1. 克隆仓库
-git clone https://github.com/yourusername/FishingGameHall-Pro.git
-cd FishingGameHall-Pro
-
-# 2. 导入客户端
-# 使用Cocos Creator打开 client/ 目录
-
-# 3. 编译C++服务器
-cd server/cpp
-mkdir build && cd build
-cmake ..
-make
-
-# 4. 启动Python逻辑服务
-cd server/python
-pip install -r requirements.txt
-python main.py
-
-# 5. 启动运营后台
-cd admin
-npm install
-npm start
-
-# 6. 导入数据库
-mysql -u root -p < database/mysql/schema.sql
-```
 
 ## Star History
 

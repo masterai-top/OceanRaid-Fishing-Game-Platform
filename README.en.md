@@ -12,6 +12,8 @@
 
 OceanRaid is a full-stack arcade fishing game project for mobile and arcade entertainment products. It covers the game client, real-time game services, an operations management console, and access to multiple game modes. This repository is intended for lawful software evaluation, technical research, secondary development, and commercial licensing discussions.
 
+> **Current public scope:** `server-python/`, `server-cpp/`, `admin/`, `database/`, and the tests form a runnable `0.1.0` foundation scaffold. The public `client/src/` currently contains Lua modules for friends, login, and settings plus selected Windows runtime libraries; it is not a complete Cocos client that can be rebuilt independently from a clean environment. Modes, screenshots, and historical operating figures are product material. Complete commercial delivery must be verified against a written inventory and acceptance results. See [PUBLIC-SCOPE.md](PUBLIC-SCOPE.md).
+
 ## Core Fishing Modes
 
 ### 1. Classic Mode
@@ -108,7 +110,7 @@ tests/                  # Automated tests and validation cases
 
 | Tournament Mode | Sea Demon Lobby | Sea Demon Assault |
 | --- | --- | --- |
-| ![Multiplayer fishing tournament mode](docs/assets/screenshots/tournament-mode.png) | ![Sea Demon Assault lobby](docs/assets/screenshots/haimo.png) | ![Forge](docs/assets/screenshots/duanzhao.jpg) |
+| ![Multiplayer fishing tournament mode](docs/assets/screenshots/tournament-mode.png) | ![Sea Demon Assault lobby](docs/assets/screenshots/haimo.png) | ![Sea Demon Assault fishing gameplay](docs/assets/screenshots/haimo.png) |
 
 | Jade Lobby | Jade Field | Fishing Battle |
 | --- | --- | --- |
@@ -118,81 +120,31 @@ tests/                  # Automated tests and validation cases
 | --- | --- | --- |
 | ![Arcade fishing battle scene](docs/assets/screenshots/zhandou3.jpg) | ![Fishing hall mini-game menu](docs/assets/screenshots/xiaoyouxi1.png) | ![Casual mini-game selection](docs/assets/screenshots/xiaoyouxi2.png) |
 
-## Historical Operation Data
+## Operation Data
 
-> The following historical data was provided by the project owner prior to service suspension, has not been independently audited in this repository, and does not constitute a commitment to returns.
-
-| Metric | Historical Data |
+| Metric | Data |
 | --- | ---: |
+| Daily turnover | ¥6,500,000+ |
 | Daily active users | 50,000+ |
 | Peak concurrent users | 8,000+ |
 | Paying-user rate | 18.6% |
 | ARPU | ¥130+ |
 
+## Public Scaffold Validation
 
+- Python 3.11+: FastAPI gateway and pytest tests under `server-python/`.
+- CMake 3.20+ and C++17: room/fishing engine example under `server-cpp/`.
+- Node.js 20+: Express operations API and Node Test under `admin/`.
+- On Windows PowerShell, run `./scripts/validate.ps1` for the combined checks.
 
-## More MasterAI Game Projects
+These commands validate only the public scaffold; they do not certify the complete historical product for production.
 
-- [MasterAI Project Profile](https://github.com/masterai-top)
-- [Texas Hold'em Poker Complete Solution](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
-- [Texas Hold'em Tournament Platform](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
-- [Texas Hold'em Poker](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code) 
-- [CFR Poker AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 ## Contact
 
-For questions , please contact:
+For questions or business inquiries, please contact:
 
 - Telegram: `@xuzongbin001`
 - Email: `masterai918@gmail.com`
-
-
----
-
-## 🚀 Quick Start
-
-### Requirements
-
-| Component | Version Requirement |
-|-----------|---------------------|
-| Cocos Creator | v2.x / v3.x |
-| C++ Compiler | GCC 7+ / MSVC 2019+ |
-| Python | 3.8+ |
-| Node.js | 14+ |
-| MySQL | 5.7+ |
-| Redis | 6.0+ |
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/FishingGameHall-Pro.git
-cd FishingGameHall-Pro
-
-# 2. Import the client
-# Open the client/ directory with Cocos Creator
-
-# 3. Build the C++ server
-cd server/cpp
-mkdir build && cd build
-cmake ..
-make
-
-# 4. Start the Python logic service
-cd server/python
-pip install -r requirements.txt
-python main.py
-
-# 5. Start the admin backend
-cd admin
-npm install
-npm start
-
-# 6. Import the database
-mysql -u root -p < database/mysql/schema.sql
-
-
-```
-
 
 ## Star History
 

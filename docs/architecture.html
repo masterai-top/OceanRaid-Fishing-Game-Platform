@@ -1,0 +1,10 @@
+<!doctype html><html lang="en" class="page"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OceanRaid Architecture | Lua Python C++ Node.js</title><meta name="description" content="Technical architecture of the public OceanRaid Lua client modules, Python FastAPI gateway, C++17 room engine, Node.js operations API and database examples."><meta name="robots" content="index,follow"><link rel="canonical" href="https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/architecture.html"><link rel="stylesheet" href="styles.css"></head><body><header><a class="brand" href="./">OceanRaid</a><nav><a href="features.html">Modes</a><a href="architecture.html">Architecture</a><a href="deployment.html">Deployment</a><a href="responsible-use.html">Responsible Use</a><a href="https://github.com/masterai-top/OceanRaid-Fishing-Game-Platform">GitHub</a></nav></header><main><p class="eyebrow">Technical architecture</p><h1>Public foundation components</h1><div class="tech"><span>Lua client modules</span><span>Python 3.11+ / FastAPI</span><span>C++17 / CMake</span><span>Node.js 20+ / Express</span><span>SQL examples</span></div><h2>Repository flow</h2><pre><code>Lua client modules
+        |
+        v
+Python gateway scaffold ---- Node.js operations API
+        |
+        v
+C++ room and fishing-engine example
+        |
+        v
+Database and sanitized configuration examples</code></pre><h2>Current boundary</h2><p>The scaffolds demonstrate service shape, configuration and basic validation. A complete production architecture still needs authoritative protocols, persistence, identity, payments if applicable, observability, deployment manifests, asset/build pipelines, capacity tests and disaster recovery.</p><h2>Testing</h2><p>The repository includes pytest, CTest, Node Test and cross-repository contract checks. Expand coverage for synchronization, hit validation, rewards, reconnects, duplicate requests, concurrency, anti-cheat and failure recovery.</p></main><footer>OceanRaid · <a href="./">Overview</a></footer></body></html>
