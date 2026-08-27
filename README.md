@@ -184,7 +184,7 @@ npm start
 # 6. 导入数据库
 mysql -u root -p < database/mysql/schema.sql
 -------------------------------------------
-⭐ Star History
+## ⭐ Star History
 如果这个项目对你有帮助，请给一个 Star ⭐ 支持一下！
 ## 关键词
 
