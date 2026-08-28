@@ -138,7 +138,13 @@ tests/                  # 自動化測試和驗證案例
 - Windows PowerShell 可執行 `./scripts/validate.ps1` 完成整體檢查。
 
 以上命令只驗證公開框架，不代表完整歷史產品已通過正式環境驗收。
+## MasterAI和德州项目
 
+- [MasterAI 游戏项目主页](https://github.com/masterai-top)
+- [德州俱乐部](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [德州扑克赛事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
+- [德州金币大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
+- [德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 ## 聯絡方式
 
 如有任何問題或合作意向，歡迎聯絡：
