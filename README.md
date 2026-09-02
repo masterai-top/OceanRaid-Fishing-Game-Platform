@@ -1,8 +1,9 @@
-# OceanRaid 捕鱼游戏全栈源码 | Arcade Fishing Game Source Code
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
+# OceanRaid 多人街机捕鱼游戏平台
 
 > Cocos 客户端 + Python/C++ 游戏服务端 + Node.js 运营后台的多人街机捕鱼游戏平台源码。
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [在线文档](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/) | [商业授权](LICENSE)
 
 ![Cocos](https://img.shields.io/badge/client-Cocos-55C2E1)
 ![Python](https://img.shields.io/badge/server-Python-3776AB?logo=python&logoColor=white)
@@ -10,10 +11,11 @@
 ![Node.js](https://img.shields.io/badge/admin-Node.js-339933?logo=nodedotjs&logoColor=white)
 ![License](https://img.shields.io/badge/license-commercial-orange)
 
+
 OceanRaid 是一套面向移动端和街机娱乐产品的捕鱼游戏全栈项目，覆盖客户端、实时游戏服务、运营管理后台以及多玩法入口。仓库适用于合法的软件评估、技术研究、二次开发和商业授权洽谈。
 
-## 核心捕鱼玩法
 
+## 核心捕鱼玩法
 
 
 ### 1️⃣ 经典模式 | Classic Mode
@@ -24,16 +26,19 @@ OceanRaid 是一套面向移动端和街机娱乐产品的捕鱼游戏全栈项�
 | 深海巨兽 | 1 - 30000倍 |
 | 幽灵船长 | 1 - 30000倍 |
 
+
 ### 2️⃣ 比赛模式 | Tournament Mode
 - 实时多人竞技
 - 排行榜系统
 - 丰厚奖励机制
+
 
 ### 3️⃣ 玉石场 | Jade Field
 | 场景 | 倍数范围 |
 |------|----------|
 | 亡灵废墟 | 5000 - 10000倍 |
 | 天宫乱斗 | 5000 - 10000倍 |
+
 
 ### 4️⃣ 找刺激 | Thrill Zone
 | 游戏 | 类型 |
@@ -51,11 +56,15 @@ OceanRaid 是一套面向移动端和街机娱乐产品的捕鱼游戏全栈项�
 | 红黑大战 | 棋牌 |
 ## 扩展休闲玩法
 
+
 弹头夺宝、四国征战、宝石迷城、斗地主、麻将、拼十、王者战绩、水浒传、好运连连、龙虎斗和红黑大战。
+
 
 > 玩法名称、倍率和可用模块以实际交付版本及当地法律要求为准。涉及支付、虚拟物品、概率、竞赛或奖励的功能，上线前必须完成目标地区的法律、平台政策和未成年人保护审查。
 
+
 ## 产品能力
+
 
 - 百种鱼类与多套首领、生物和海域场景资源
 - 多房间、多炮台、多人实时同步与赛事流程
@@ -64,7 +73,9 @@ OceanRaid 是一套面向移动端和街机娱乐产品的捕鱼游戏全栈项�
 - 面向 Android、iOS 和定制终端的二次开发基础
 - 管理员分级权限、参数配置、操作日志与风险控制扩展点
 
+
 ## 技术架构
+
 
 ```text
 Cocos Client
@@ -80,9 +91,12 @@ Gateway / Session Services
 Node.js Operations Console
 ```
 
+
 具体数据库、中间件、部署版本和外部依赖应以实际源码中的配置与部署文档为准，不应仅根据本介绍推断可以一键上线。
 
+
 ## 项目结构
+
 
 ```text
 client/                 # Cocos 客户端源码
@@ -97,6 +111,7 @@ tests/                  # 自动化测试和验证用例
 .github/workflows/      # CI 与 GitHub Pages 工作流
 ```
 
+
 ## 产品截图
 
 
@@ -104,24 +119,27 @@ tests/                  # 自动化测试和验证用例
 | --- | --- | --- |
 | ![OceanRaid 捕鱼游戏大厅](docs/assets/screenshots/lobby.png) | ![OceanRaid 经典捕鱼大厅](docs/assets/screenshots/jingdian.png) | ![经典捕鱼游戏画面](docs/assets/screenshots/classic-mode.png) |
 
+
 | 比赛模式 | 海魔来袭大厅 | 海魔来袭 |
 | --- | --- | --- |
 | ![多人捕鱼比赛模式](docs/assets/screenshots/tournament-mode.png) | ![海魔来袭大厅](docs/assets/screenshots/haimo.png) | ![锻造](docs/assets/screenshots/duanzhao.jpg) |
 
+
 | 玉石大厅 | 玉石场 | 捕鱼战斗画面 |
 | --- | --- | --- |
 | ![捕鱼玉石场大厅](docs/assets/screenshots/yushidating.png) | ![玉石场捕鱼玩法](docs/assets/screenshots/jade-arena.jpg) | ![多人捕鱼战斗画面](docs/assets/screenshots/zhandou2.jpg) |
+
 
 | 战斗场景 | 小游戏入口一 | 小游戏入口二 |
 | --- | --- | --- |
 | ![捕鱼战斗场景](docs/assets/screenshots/zhandou3.jpg) | ![捕鱼大厅小游戏入口](docs/assets/screenshots/xiaoyouxi1.png) | ![休闲小游戏列表](docs/assets/screenshots/xiaoyouxi2.png) |
 
 
-
-
 ## 历史运营数据
 
+
 > 以下为项目方提供的停服前历史数据，未在本仓库中独立审计，不构成收益承诺。
+
 
 | 指标 | 历史数据 |
 | --- | ---: |
@@ -131,7 +149,9 @@ tests/                  # 自动化测试和验证用例
 | 付费率 | 18.6% |
 | ARPU | ¥130+ |
 
+
 ## MasterAI 相关游戏项目
+
 
 - [MasterAI 游戏项目主页](https://github.com/masterai-top)
 - [德州俱乐部](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
@@ -139,20 +159,25 @@ tests/                  # 自动化测试和验证用例
 - [德州金币大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
 - [德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 
+
 ## 📞 联系方式 | Contact
 如有任何问题或意向，欢迎联系：
 
+
 Telegram: @xuzongbin001
+
 
 Email: masterai918@gmail.com
 
 
-
 ---
+
 
 ## 🚀 快速开始 | Quick Start
 
+
 ### 环境要求 | Requirements
+
 
 | 组件 | 版本要求 |
 |------|----------|
@@ -163,37 +188,45 @@ Email: masterai918@gmail.com
 | MySQL | 5.7+ |
 | Redis | 6.0+ |
 
+
 ### 安装部署 | Installation
 
+
 ```bash
-# 1. 克隆仓库
+## 1. 克隆仓库
 git clone https://github.com/yourusername/FishingGameHall-Pro.git
 cd FishingGameHall-Pro
 
-# 2. 导入客户端
-# 使用Cocos Creator打开 client/ 目录
 
-# 3. 编译C++服务器
+## 2. 导入客户端
+## 使用Cocos Creator打开 client/ 目录
+
+
+## 3. 编译C++服务器
 cd server/cpp
 mkdir build && cd build
 cmake ..
 make
 
-# 4. 启动Python逻辑服务
+
+## 4. 启动Python逻辑服务
 cd server/python
 pip install -r requirements.txt
 python main.py
 
-# 5. 启动运营后台
+
+## 5. 启动运营后台
 cd admin
 npm install
 npm start
 
-# 6. 导入数据库
+
+## 6. 导入数据库
 mysql -u root -p < database/mysql/schema.sql
 ```
 ## ⭐ Star History
 如果这个项目对你有帮助，请给一个 Star ⭐ 支持一下！
 ## 关键词
+
 
 捕鱼源码、捕鱼游戏源码、街机捕鱼源码、Cocos 捕鱼游戏、多人捕鱼服务端、捕鱼运营后台、arcade fishing game source code、fish shooting game、Cocos game client、Python game server、C++ game server、Node.js admin dashboard。
