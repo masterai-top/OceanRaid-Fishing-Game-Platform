@@ -1,6 +1,6 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# OceanRaid 多人街机捕鱼游戏平台
+# 街机捕鱼游戏源码 - OceanRaid 多人捕鱼游戏平台
 
 > Cocos 客户端 + Python/C++ 游戏服务端 + Node.js 运营后台的多人街机捕鱼游戏平台源码。
 
@@ -13,6 +13,8 @@
 
 
 OceanRaid 是一套面向移动端和街机娱乐产品的捕鱼游戏全栈项目，覆盖客户端、实时游戏服务、运营管理后台以及多玩法入口。仓库适用于合法的软件评估、技术研究、二次开发和商业授权洽谈。
+
+> **当前公开范围：** `server-python/`、`server-cpp/`、`admin/`、`database/` 和测试构成可运行的基础框架。公开的 `client/src/` 主要是好友、登录、设置相关 Lua 模块及部分 Windows 运行库，并不是可以在干净环境独立重建的完整 Cocos 客户端。玩法、截图和历史运营数据属于产品资料；完整商业交付应以书面清单和验收结果为准。详见 [PUBLIC-SCOPE.md](PUBLIC-SCOPE.md)。
 
 
 ## 核心捕鱼玩法
@@ -194,8 +196,8 @@ Email: masterai918@gmail.com
 
 ```bash
 ## 1. 克隆仓库
-git clone https://github.com/yourusername/FishingGameHall-Pro.git
-cd FishingGameHall-Pro
+git clone https://github.com/masterai-top/OceanRaid-Fishing-Game-Platform.git
+cd OceanRaid-Fishing-Game-Platform
 
 
 ## 2. 导入客户端
@@ -203,14 +205,14 @@ cd FishingGameHall-Pro
 
 
 ## 3. 编译C++服务器
-cd server/cpp
+cd server-cpp
 mkdir build && cd build
 cmake ..
 make
 
 
 ## 4. 启动Python逻辑服务
-cd server/python
+cd server-python
 pip install -r requirements.txt
 python main.py
 
@@ -226,7 +228,8 @@ mysql -u root -p < database/mysql/schema.sql
 ```
 ## ⭐ Star History
 如果这个项目对你有帮助，请给一个 Star ⭐ 支持一下！
-## 关键词
+## 多语言项目页面
 
-
-捕鱼源码、捕鱼游戏源码、街机捕鱼源码、Cocos 捕鱼游戏、多人捕鱼服务端、捕鱼运营后台、arcade fishing game source code、fish shooting game、Cocos game client、Python game server、C++ game server、Node.js admin dashboard。
+- [简体中文：街机捕鱼游戏源码](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/)
+- [繁體中文：街機捕魚遊戲原始碼](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-tw/)
+- [English: Arcade Fishing Game Source Code](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/en/)
