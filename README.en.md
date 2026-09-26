@@ -14,6 +14,8 @@
 
 OceanRaid is a full-stack arcade fishing game project for mobile and arcade entertainment products. It covers the game client, real-time game services, an operations management console, and access to multiple game modes. This repository is intended for lawful software evaluation, technical research, secondary development, and commercial licensing discussions.
 
+Topic pages: [Fishing game source code](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/fishing-game-source-code.html) · [Arcade fishing game](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/arcade-fishing-game.html) · [Fish shooting game source code](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/fish-shooting-game-source-code.html)
+
 
 > **Current public scope:** `server-python/`, `server-cpp/`, `admin/`, `database/`, and the tests form a runnable `0.1.0` foundation scaffold. The public `client/src/` currently contains Lua modules for friends, login, and settings plus selected Windows runtime libraries; it is not a complete Cocos client that can be rebuilt independently from a clean environment. Modes, screenshots, and historical operating figures are product material. Complete commercial delivery must be verified against a written inventory and acceptance results. See [PUBLIC-SCOPE.md](PUBLIC-SCOPE.md).
 

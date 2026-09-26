@@ -14,6 +14,8 @@
 
 OceanRaid 是一套面向移动端和街机娱乐产品的捕鱼游戏全栈项目，覆盖客户端、实时游戏服务、运营管理后台以及多玩法入口。仓库适用于合法的软件评估、技术研究、二次开发和商业授权洽谈。
 
+专题页面：[捕鱼源码](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/fishing-game-source-code.html) · [街机捕鱼](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/arcade-fishing-game.html) · [捕鱼游戏与打鱼源码](https://masterai-top.github.io/OceanRaid-Fishing-Game-Platform/zh-cn/fish-shooting-game-source-code.html)
+
 > **当前公开范围：** `server-python/`、`server-cpp/`、`admin/`、`database/` 和测试构成可运行的基础框架。公开的 `client/src/` 主要是好友、登录、设置相关 Lua 模块及部分 Windows 运行库，并不是可以在干净环境独立重建的完整 Cocos 客户端。玩法、截图和历史运营数据属于产品资料；完整商业交付应以书面清单和验收结果为准。详见 [PUBLIC-SCOPE.md](PUBLIC-SCOPE.md)。
 
 
